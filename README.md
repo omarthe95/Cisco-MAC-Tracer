@@ -8,7 +8,7 @@ Trace a host MAC address through Cisco access switches
 * Each MAC address table output will be save in a file with its device Hostname for searching process later.
 * Then the Script will ask for a **Host (PC, Printer, or any end device) IP address**
 * The IP address will be used in **Router ARP table** to get its MAC address.
-* A Searching process will start with each ouput file to find the exact interface that match the **wanted MAC address **
+* A Searching process will start with each ouput file to find the exact interface that match the **wanted MAC address**
 * After that you will be asked if you want to access L2 Switch containing the extracted MAC address and **show run int (connected)**
 
 
