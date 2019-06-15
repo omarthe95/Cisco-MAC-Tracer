@@ -42,6 +42,8 @@ git clone https://github.com/omarthe95/Cisco-MAC-Tracer.git
 ```
 
 * Run setup.sh
+note: last step the script will ask you if you want to delete the setup (downloaded) directory, 
+no mater if you delete it or not after finishing the setup process you will be able to **run the script from any where**, because it will be placed in (/home/bin/) directory.
 ```
 bash setup.sh
 ```
@@ -62,16 +64,16 @@ nano IPaddress_Switches.txt
 
 ## Running the Scripts
 
-We will start with each script with GIF to see it function
+We will start each step with GIF 
 
 
 
-### Sequential.py
+### Project-1.py
 
-Entering each device **(one-by-one)** take so much time  
+Running the Script from any where (directory) is possible because of **setup file**
 
 ```
-python3 Sequential.py
+Project-1.py
 ```
 <img src="https://github.com/omarthe95/Resources/blob/master/Sequential.gif">
 
