@@ -77,23 +77,7 @@ Project-1.py
 ```
 <img src="https://github.com/omarthe95/Resources/blob/master/Sequential.gif">
 
-### MultiThreading.py
 
-But executing it with *Threads* for each **independently** device of one another makes it faster
-
-```
-python3 MultiThreading.py
-```
-<img src="https://github.com/omarthe95/Resources/blob/master/MultiThreading.gif">
-
-### Asyncio_Netdev.py
-
-Concurrent the code with Asyncio that runs in a single thread will go beyond faster
-
-```
-python3 Asyncio_Netdev.py
-```
-<img src="https://github.com/omarthe95/Resources/blob/master/NetDev.gif">
 
 ## MultiThreading vs. Asynchronous
 <img src="https://github.com/omarthe95/Resources/blob/master/vs1.png" width="500" height="312">
