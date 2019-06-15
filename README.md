@@ -1,5 +1,5 @@
-# Deep Dive into Cisco Network Programability
-Inspired by Netmiko & Netdev to make scripts run much faster
+# Cisco MAC Tracer
+Trace a host MAC address through Cisco access switches
 
 
 
@@ -29,7 +29,7 @@ ssh cisco@192.168.1.10
 
 * Download the repository into a directory
 ```
-git clone https://github.com/omarthe95/DeepDive.git
+git clone https://github.com/omarthe95/Cisco-MAC-Tracer.git
 ```
 
 * Run setup.sh
@@ -37,7 +37,12 @@ git clone https://github.com/omarthe95/DeepDive.git
 bash setup.sh
 ```
 
-* Edit **IPaddress_Switches.txt** file with your own IP address, each device IP per line
+* Edit L3 Cisco Routers (Gateway devices) **IPaddress_Routers.txt** file with your own management IP address, each device IP per line
+```
+nano IPaddress_Routers.txt
+```
+
+* Edit L2 Cisco Switches **IPaddress_Switches.txt** file with your own management IP address, each device IP per line
 ```
 nano IPaddress_Switches.txt
 ```
@@ -103,7 +108,3 @@ Kirk Byers
 Python for Network Engineers  
 https://pynet.twb-tech.com  
 
-
-Sergey Yakovlev
-Netdev
-https://github.com/selfuryon/netdev
