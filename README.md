@@ -1,6 +1,8 @@
 # Cisco MAC Tracer
 Trace a host MAC address through Cisco access switches
 
+* This Script works oly for **L2 Cisco Access Switches**
+* Linux OS (Recommended for Ubu
 
 
 ## Getting Started
