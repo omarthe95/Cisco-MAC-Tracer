@@ -1,7 +1,7 @@
 # Cisco MAC Tracer
 Trace a host MAC address through Cisco access switches
 
-* This Script works oly for **L2 Cisco Access Switches**
+* This Script works only for **L2 Cisco Access Switches**
 * First step the Script will ask if you want to **Collect MAC address table** from L2 Cisco Access Switches.
 * If yes then a list of all interfacess that are not configured as Access port (such as Trunk, Port-channel, etc...) will be place for each device
 * The Previous list will be used to extract MAC address table for Interfaces configured as **Access only**.
